@@ -38,6 +38,17 @@ This Python script is designed to function as a set of agents that perform vario
 
 ## Functionality
 
+### User Interface Agent
+
+# handles all interactions with the user
+
+The LinkedIn Agent retrieves profile information such as the user's first and last name, job title, company, and their last LinkedIn post.
+
+```python
+def profile_info(linkedin_url):
+    # Fetch LinkedIn profile information
+```
+
 ### LinkedIn Agent
 
 The LinkedIn Agent retrieves profile information such as the user's first and last name, job title, company, and their last LinkedIn post.
@@ -64,7 +75,10 @@ This agent composes and sends cold outreach emails using insights from LinkedIn 
 def compose_email_body(seo_report, linkedin_data):
     # Compose personalized email
 ```
-
+```python
+def send_email(receiver_email,body):
+    # sends the composed email
+```
 ### Running Demo
 
 The script includes a demo loop that allows interaction with the User Interface Agent:
