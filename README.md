@@ -14,7 +14,7 @@ This Python script is designed to function as a set of agents that perform vario
 - **Python 3.x**
 - **Libraries**:
   - `requests`
-  - `openai`
+  - `openai`-1.52.0
   - `smtplib`
   - **APIs**:
     - LinkedIn Data API (via RapidAPI)
