@@ -40,7 +40,7 @@ This Python script is designed to function as a set of agents that perform vario
 
 ### User Interface Agent
 
-# handles all interactions with the user
+Handles all interactions with the user
 
 The LinkedIn Agent retrieves profile information such as the user's first and last name, job title, company, and their last LinkedIn post.
 
